@@ -30,22 +30,17 @@ Finding the given length of the words by using len() fuction.
 Calling the function and Printing the number of words.
 
 ## PROGRAM:
+```
 DEVELOPED BY : ALIYA SHEEMA
-
 REFERENCE NUMBER : 23005529
 
 num=0
-
 with open("aliya.txt","r")as f1:
-
     for i in f1:
-    
         word=i.split()
-        
         num += len(word)
-        
 print("The number of words are in the file is ",num)
-
+```
 ### OUTPUT:
 
 ![Screenshot 2024-01-02 143459](https://github.com/23005529/Word-count/assets/139842207/4224e83c-9a8b-46b0-9901-2d52e11fdd71)
